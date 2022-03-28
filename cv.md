@@ -6,5 +6,4 @@
   return a * b
 } '''
 ##### 6. Experience
-
 ##### 7. English level A2
