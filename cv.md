@@ -1,14 +1,6 @@
 ![](https://media-exp1.licdn.com/dms/image/C4D03AQH6aN7Af4m67Q/profile-displayphoto-shrink_200_200/0/1648573842665?e=2147483647&v=beta&t=-XbhxtN_jX8kM6VushjjiMDS6xEbnMaObYj8ICqhxwE)
 ___
 # Aliaksandr Kochneu
-Motivated, educated, open-minded with wide experience, good soft and hard skills, dedicated to the project success. 
-Strong interest in Front-end, Back-end, Agile and Supply Chain Management:
-
-— Effective communication skills, wide experience working with the teams of different size, success oriented and resilient;
-— Strong analytical, planning and organizational skills;
-— Open-minded, friendly, energized and optimistic person;
-— Highly adaptable to the new tasks, teams and work settings; 
-— Valuable experience working in remote teams.
 ## Junior Front-end Developer
 ***
 ## Contact information:
@@ -19,6 +11,14 @@ Strong interest in Front-end, Back-end, Agile and Supply Chain Management:
 [linkedin]: linkedin.com/in/alex-kochnev-229b88235
 ***
 ## Briefly About Myself
+Motivated, educated, open-minded with wide experience, good soft and hard skills, dedicated to the project success. 
+Strong interest in Front-end, Back-end, Agile and Supply Chain Management:
+
+* — Effective communication skills, wide experience working with the teams of different size, success oriented and resilient;
+* — Strong analytical, planning and organizational skills;
+* — Open-minded, friendly, energized and optimistic person;
+* — Highly adaptable to the new tasks, teams and work settings; 
+* — Valuable experience working in remote teams.
 
 ***
 ## Skills and Proficiency 
@@ -28,9 +28,14 @@ Strong interest in Front-end, Back-end, Agile and Supply Chain Management:
 * VS Code, IntelliJ IDEA
 ***
 ## Code example:
-    function multiply(a, b) {
-      return a * b
-      } 
+    const fs = require('fs');
+    const path = require('path');
+    const readableStream = fs.createReadStream(path.join(__dirname,'text.txt'), 'utf-8');
+
+    let data = '';
+    readableStream.on('data', (chunk) => data += chunk );
+    readableStream.on('end', () => console.log(data));
+    readableStream.on('error', (error) => console.log(`ERROR: ${error.message}`)); 
 
 ## Courses:
 * JavaScript Manual on learnjavascript.ru (in progress)
